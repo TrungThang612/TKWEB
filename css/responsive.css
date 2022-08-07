@@ -1,0 +1,51 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* Mobile and Tablet */
+@media  screen and (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+   
+    .grid__column-10 {
+        width: 100%;
+    }
+
+    .category {
+        display: none;
+    }
+}
+
+/* Tablet*/
+@media screen  and (min-width: 740px) and (max-width: 1023px) {
+    .grid__column-2-5 {
+        width: 33.333%;
+    }
+    
+    h3.footer__heading {
+        width: 85%;
+    }
+
+}
+    
+
+/* Mobile */
+@media screen and (max-width: 739px) {
+    .slection {
+        display: none;
+    }
+
+    .grid__column-2-5 {
+        width: 100%;
+    }
+
+    .produc-item-info  {    
+        top: 37%;
+        left: 33%;
+      }
+}
+
